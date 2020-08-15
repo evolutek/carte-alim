@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name Carte-Alim-rescue)(type Legacy)(uri "${KIPRJMOD}/Carte Alim-rescue.lib")(options "")(descr ""))
 )
