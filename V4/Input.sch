@@ -86,7 +86,7 @@ U 1 1 60063DB8
 P 1300 1700
 F 0 "ALIM1" H 950 1650 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 950 1550 50  0000 C CNN
-F 2 "ConnectorsEvo:22-05-7035" H 1300 1700 50  0001 C CNN
+F 2 "ConnectorsEvo:691406710002B" H 1300 1700 50  0001 C CNN
 F 3 "~" H 1300 1700 50  0001 C CNN
 	1    1300 1700
 	1    0    0    -1  
@@ -502,8 +502,6 @@ Text Notes 9050 2000 0    50   ~ 0
 The power source selection system use a LTC4353.\n\nBy default, the LTC4353 is in ideal diode mode,\nso it will choose automatically the power source\nby comparing the voltage.\n\nWe can override the ideal diode mode using\na 3 state switch to select manually the power source.
 Text Notes 9050 3900 0    50   ~ 0
 The selected push button has 3 leds\n(Red, Green and Blue).\n- It will blink red when the system\nis turning on and off.\n- It will be green when the selected power source\nis the battery.\n- It will be blue when the selected power source\nis the external alimentation.
-Text Notes 8450 6450 0    50   ~ 0
-TODO Reset ?
 Text Notes 9050 4150 0    50   ~ 0
 An INA219 is used to measure\nthe output current/voltage.\n
 Text Notes 9050 1250 0    50   ~ 0
@@ -639,19 +637,6 @@ F 2 "Package_TO_SOT_SMD:TSOT-23-8" H 9150 950 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 8700 1200 50  0001 C CNN
 	1    8350 1300
 	0    -1   1    0   
-$EndComp
-Connection ~ 8200 800 
-Connection ~ 8500 800 
-$Comp
-L Device:R RSHUNT1
-U 1 1 6063A005
-P 8350 800
-F 0 "RSHUNT1" V 8143 800 50  0000 C CNN
-F 1 "0.002" V 8234 800 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 8280 800 50  0001 C CNN
-F 3 "~" H 8350 800 50  0001 C CNN
-	1    8350 800 
-	0    1    1    0   
 $EndComp
 $Comp
 L power:VDD #PWR094
@@ -1133,10 +1118,6 @@ Wire Wire Line
 Connection ~ 8600 5650
 Wire Wire Line
 	8350 5950 8600 5950
-Wire Wire Line
-	7950 800  8200 800 
-Text Label 7950 800  0    50   ~ 0
-VCC
 $Comp
 L power:VDD #PWR072
 U 1 1 611C261F
@@ -1601,11 +1582,6 @@ Wire Notes Line
 Wire Notes Line
 	6750 500  6750 4650
 Wire Wire Line
-	6500 850  6700 850 
-Connection ~ 6500 850 
-Text Label 6700 850  2    50   ~ 0
-VCC
-Wire Wire Line
 	6000 850  6500 850 
 Wire Wire Line
 	5300 850  5300 1800
@@ -1676,7 +1652,7 @@ VCC2
 Text Label 4950 850  0    50   ~ 0
 VCC1
 Wire Wire Line
-	6500 4350 6500 850 
+	6500 4350 6500 3050
 Text Notes 4400 650  0    50   ~ 0
 Power Input Selector
 Text Label 4200 2800 2    50   ~ 0
@@ -1769,17 +1745,6 @@ Wire Wire Line
 	6450 2650 6200 2650
 Text Label 6450 2650 2    50   ~ 0
 ~ONST2
-$Comp
-L power:VCC #PWR086
-U 1 1 60874C4B
-P 5700 3000
-F 0 "#PWR086" H 5700 2850 50  0001 C CNN
-F 1 "VCC" V 5715 3127 50  0000 L CNN
-F 2 "" H 5700 3000 50  0001 C CNN
-F 3 "" H 5700 3000 50  0001 C CNN
-	1    5700 3000
-	-1   0    0    1   
-$EndComp
 Text Label 6450 2350 2    50   ~ 0
 ~ONST1
 Wire Wire Line
@@ -1805,17 +1770,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 1500 50  0001 C CNN
 F 3 "~" H 6250 1500 50  0001 C CNN
 	1    6250 1500
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR085
-U 1 1 601357D0
-P 5700 1950
-F 0 "#PWR085" H 5700 1800 50  0001 C CNN
-F 1 "VCC" V 5715 2078 50  0000 L CNN
-F 2 "" H 5700 1950 50  0001 C CNN
-F 3 "" H 5700 1950 50  0001 C CNN
-	1    5700 1950
-	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C6
@@ -1977,4 +1931,36 @@ Wire Wire Line
 Connection ~ 3650 2500
 Wire Wire Line
 	3450 2500 3650 2500
+Wire Wire Line
+	5700 1950 5700 1900
+Wire Wire Line
+	5700 1900 6500 1900
+Connection ~ 6500 1900
+Wire Wire Line
+	6500 1900 6500 850 
+Wire Wire Line
+	5700 3000 5700 3050
+Wire Wire Line
+	5700 3050 6500 3050
+Connection ~ 6500 3050
+Wire Wire Line
+	6500 3050 6500 1900
+Connection ~ 8500 800 
+Connection ~ 8200 800 
+$Comp
+L Device:R RSHUNT1
+U 1 1 6063A005
+P 8350 800
+F 0 "RSHUNT1" V 8143 800 50  0000 C CNN
+F 1 "0.002" V 8234 800 50  0000 C CNN
+F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 8280 800 50  0001 C CNN
+F 3 "~" H 8350 800 50  0001 C CNN
+	1    8350 800 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 850  6500 800 
+Wire Wire Line
+	6500 800  8200 800 
+Connection ~ 6500 850 
 $EndSCHEMATC
