@@ -212,7 +212,7 @@ U 1 1 5F359BA4
 P 7900 4500
 F 0 "AX1" H 8100 4200 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 8400 4100 50  0000 R CNN
-F 2 "ConnectorsEvo:22-03-5035" H 7900 4500 50  0001 C CNN
+F 2 "ConnectorsEvo:22-05-7035" H 7900 4500 50  0001 C CNN
 F 3 "~" H 7900 4500 50  0001 C CNN
 	1    7900 4500
 	-1   0    0    -1  
@@ -239,7 +239,7 @@ Wire Notes Line
 Text Notes 7650 4200 0    50   ~ 0
 AX12
 Text Notes 5100 5000 2    50   ~ 0
-Disconnect J? when no\nRaspberry is connected
+Disconnect J2 when no\nRaspberry is connected
 Wire Wire Line
 	1300 750  1750 750 
 Wire Wire Line
@@ -455,7 +455,7 @@ U 1 1 61174F82
 P 8650 950
 F 0 "J9" H 8250 950 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 8550 850 50  0000 R CNN
-F 2 "ConnectorsEvo:649002227222" H 8650 950 50  0001 C CNN
+F 2 "ConnectorsEvo:691406710002B" H 8650 950 50  0001 C CNN
 F 3 "~" H 8650 950 50  0001 C CNN
 	1    8650 950 
 	-1   0    0    -1  
@@ -490,7 +490,7 @@ U 1 1 6117A515
 P 8650 1600
 F 0 "J10" H 8300 1600 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 8600 1500 50  0000 R CNN
-F 2 "ConnectorsEvo:649002227222" H 8650 1600 50  0001 C CNN
+F 2 "ConnectorsEvo:691406710002B" H 8650 1600 50  0001 C CNN
 F 3 "~" H 8650 1600 50  0001 C CNN
 	1    8650 1600
 	-1   0    0    -1  
@@ -804,7 +804,7 @@ U 1 1 611825A6
 P 8650 2250
 F 0 "J11" H 8300 2250 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 8600 2150 50  0000 R CNN
-F 2 "ConnectorsEvo:649002227222" H 8650 2250 50  0001 C CNN
+F 2 "ConnectorsEvo:691406710002B" H 8650 2250 50  0001 C CNN
 F 3 "~" H 8650 2250 50  0001 C CNN
 	1    8650 2250
 	-1   0    0    -1  
@@ -1128,10 +1128,10 @@ Wire Notes Line
 	3200 500  550  500 
 Text Notes 2300 650  0    50   ~ 0
 Sub sheets
-Text Notes 2150 1350 0    50   ~ 0
+Text Notes 2050 1350 0    50   ~ 0
 Input:\nManage power input\nAU:\nManage AU\nConverters:\nManage power generation
 Text Notes 950  7100 0    197  ~ 0
-TODO:\nDecoupler VCC ?\nPlus de décloupage ?\nMettre PH à GND avec L_SW ?\nEnlever les jumper de input\nPullup PH, INT, ON_BAU
+TODO:\nDecoupler VCC ?\nPlus de décloupage ?\nMettre PH à GND avec L_SW ?\nEnlever les jumper dans input\nPullup PH, INT, ON_BAU ?
 Wire Notes Line
 	3250 5050 5150 5050
 Wire Notes Line
