@@ -669,15 +669,15 @@ $EndComp
 $Comp
 L power:VCC #PWR036
 U 1 1 605F0E36
-P 7350 800
-F 0 "#PWR036" H 7350 650 50  0001 C CNN
-F 1 "VCC" H 7365 973 50  0000 C CNN
-F 2 "" H 7350 800 50  0001 C CNN
-F 3 "" H 7350 800 50  0001 C CNN
-	1    7350 800 
+P 7950 800
+F 0 "#PWR036" H 7950 650 50  0001 C CNN
+F 1 "VCC" H 7965 973 50  0000 C CNN
+F 2 "" H 7950 800 50  0001 C CNN
+F 3 "" H 7950 800 50  0001 C CNN
+	1    7950 800 
 	1    0    0    -1  
 $EndComp
-Text Notes 7900 650  0    50   ~ 0
+Text Notes 8000 1650 0    50   ~ 0
 Current/Voltage measure
 Wire Wire Line
 	7250 1300 7200 1300
@@ -789,8 +789,6 @@ F 3 "~" H 7200 1450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 900  7550 900 
-Wire Wire Line
-	7350 800  7500 800 
 $Comp
 L Analog_ADC:INA219AxD U5
 U 1 1 60647E89
@@ -803,7 +801,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 8000 1200 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7800 800  8100 800 
+	7800 800  7950 800 
 Connection ~ 7500 800 
 Connection ~ 7800 800 
 $Comp
@@ -1502,18 +1500,6 @@ Connection ~ 1800 1700
 Text Label 4750 1700 2    50   ~ 0
 VCC2
 $Comp
-L power:VCC #PWR030
-U 1 1 61A6056B
-P 6500 900
-F 0 "#PWR030" H 6500 750 50  0001 C CNN
-F 1 "VCC" H 6515 1073 50  0000 C CNN
-F 2 "" H 6500 900 50  0001 C CNN
-F 3 "" H 6500 900 50  0001 C CNN
-	1    6500 900 
-	1    0    0    -1  
-$EndComp
-Connection ~ 6500 900 
-$Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 61A6EA70
 P 1850 3650
@@ -1625,53 +1611,31 @@ Wire Wire Line
 	6500 1700 6500 4400
 Text Label 5350 900  2    50   ~ 0
 VCC1
-$Comp
-L ComponentsEvo:Si7997DP Q3
-U 2 1 617579A3
-P 5450 1800
-F 0 "Q3" V 5792 1800 50  0000 C CNN
-F 1 "Si7997DP" V 5701 1800 50  0000 C CNN
-F 2 "ComponentsEvo:PowerPak-SO8_5.15x6.15mm_Pitch1.27mm_Dual" H 5650 1800 50  0001 C CNN
-F 3 "~" H 5650 1800 50  0001 C CNN
-	2    5450 1800
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4800 3200 4900 3200
-$Comp
-L ComponentsEvo:Si7997DP Q3
-U 1 1 61755EDA
-P 5000 1800
-F 0 "Q3" V 5342 1800 50  0000 C CNN
-F 1 "Si7997DP" V 5251 1800 50  0000 C CNN
-F 2 "ComponentsEvo:PowerPak-SO8_5.15x6.15mm_Pitch1.27mm_Dual" H 5200 1800 50  0001 C CNN
-F 3 "~" H 5200 1800 50  0001 C CNN
-	1    5000 1800
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	1800 1700 4800 1700
 $Comp
 L ComponentsEvo:Si7997DP Q4
 U 2 1 617C856A
-P 6100 1000
-F 0 "Q4" V 6442 1000 50  0000 C CNN
-F 1 "Si7997DP" V 6351 1000 50  0000 C CNN
-F 2 "ComponentsEvo:PowerPak-SO8_5.15x6.15mm_Pitch1.27mm_Dual" H 6300 1000 50  0001 C CNN
-F 3 "~" H 6300 1000 50  0001 C CNN
-	2    6100 1000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ComponentsEvo:Si7997DP Q4
-U 1 1 617C85A3
 P 5600 1000
 F 0 "Q4" V 5942 1000 50  0000 C CNN
 F 1 "Si7997DP" V 5851 1000 50  0000 C CNN
 F 2 "ComponentsEvo:PowerPak-SO8_5.15x6.15mm_Pitch1.27mm_Dual" H 5800 1000 50  0001 C CNN
 F 3 "~" H 5800 1000 50  0001 C CNN
-	1    5600 1000
+	2    5600 1000
 	0    1    -1   0   
+$EndComp
+$Comp
+L ComponentsEvo:Si7997DP Q4
+U 1 1 617C85A3
+P 6100 1000
+F 0 "Q4" V 6442 1000 50  0000 C CNN
+F 1 "Si7997DP" V 6351 1000 50  0000 C CNN
+F 2 "ComponentsEvo:PowerPak-SO8_5.15x6.15mm_Pitch1.27mm_Dual" H 6300 1000 50  0001 C CNN
+F 3 "~" H 6300 1000 50  0001 C CNN
+	1    6100 1000
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	6300 900  6500 900 
@@ -1746,4 +1710,34 @@ F 3 "" H 5450 4700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5450 4400 6500 4400
+$Comp
+L ComponentsEvo:Si7997DP Q3
+U 1 1 61755EDA
+P 5000 1800
+F 0 "Q3" V 5342 1800 50  0000 C CNN
+F 1 "Si7997DP" V 5251 1800 50  0000 C CNN
+F 2 "ComponentsEvo:PowerPak-SO8_5.15x6.15mm_Pitch1.27mm_Dual" H 5200 1800 50  0001 C CNN
+F 3 "~" H 5200 1800 50  0001 C CNN
+	1    5000 1800
+	0    1    -1   0   
+$EndComp
+$Comp
+L ComponentsEvo:Si7997DP Q3
+U 2 1 617579A3
+P 5450 1800
+F 0 "Q3" V 5792 1800 50  0000 C CNN
+F 1 "Si7997DP" V 5701 1800 50  0000 C CNN
+F 2 "ComponentsEvo:PowerPak-SO8_5.15x6.15mm_Pitch1.27mm_Dual" H 5650 1800 50  0001 C CNN
+F 3 "~" H 5650 1800 50  0001 C CNN
+	2    5450 1800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7950 800 
+Wire Wire Line
+	7950 800  8100 800 
+Wire Wire Line
+	6500 900  6500 800 
+Wire Wire Line
+	6500 800  7500 800 
+Connection ~ 6500 900 
 $EndSCHEMATC
