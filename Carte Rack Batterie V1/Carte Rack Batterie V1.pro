@@ -1,4 +1,4 @@
-update=22/10/2021 23:54:10
+update=24/10/2021 12:23:07
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Carte Rack Batterie.net
+LastNetListRead=Carte Rack Batterie V1.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -60,7 +60,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

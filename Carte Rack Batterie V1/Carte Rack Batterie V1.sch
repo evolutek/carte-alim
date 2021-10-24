@@ -69,22 +69,18 @@ Connection ~ 1950 2000
 $Comp
 L Connector:Conn_01x02_Male Batt1
 U 1 1 6174C88C
-P 2650 1200
-F 0 "Batt1" H 2622 1174 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 2622 1083 50  0000 R CNN
-F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 2650 1200 50  0001 C CNN
-F 3 "~" H 2650 1200 50  0001 C CNN
-	1    2650 1200
-	-1   0    0    -1  
+P 2600 1300
+F 0 "Batt1" H 2572 1274 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 2572 1183 50  0000 R CNN
+F 2 "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical" H 2600 1300 50  0001 C CNN
+F 3 "~" H 2600 1300 50  0001 C CNN
+	1    2600 1300
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1850 1300 1850 1200
 Wire Wire Line
-	1850 1200 2450 1200
-Wire Wire Line
 	1950 1450 1950 1300
-Wire Wire Line
-	1950 1300 2450 1300
 Text Label 2250 1200 0    50   ~ 0
 BATT
 Text Label 2250 1300 0    50   ~ 0
@@ -113,4 +109,8 @@ Text Label 1650 1300 0    50   ~ 0
 BATT
 Text Label 1650 2000 0    50   ~ 0
 GND
+Wire Wire Line
+	1950 1300 2400 1300
+Wire Wire Line
+	1850 1200 2400 1200
 $EndSCHEMATC
