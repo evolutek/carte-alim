@@ -1417,24 +1417,24 @@ Wire Wire Line
 $Comp
 L ComponentsEvo:Si7997DP Q4
 U 1 1 61755EDA
-P 5000 1800
-F 0 "Q4" V 5342 1800 50  0000 C CNN
-F 1 "Si7997DP" V 5251 1800 50  0000 C CNN
-F 2 "ComponentsEvo:PowerPak-SO8_5.15x6.15mm_Pitch1.27mm_Dual" H 5200 1800 50  0001 C CNN
-F 3 "~" H 5200 1800 50  0001 C CNN
-	1    5000 1800
-	0    1    -1   0   
-$EndComp
-$Comp
-L ComponentsEvo:Si7997DP Q4
-U 2 1 617579A3
 P 5450 1800
 F 0 "Q4" V 5792 1800 50  0000 C CNN
 F 1 "Si7997DP" V 5701 1800 50  0000 C CNN
 F 2 "ComponentsEvo:PowerPak-SO8_5.15x6.15mm_Pitch1.27mm_Dual" H 5650 1800 50  0001 C CNN
 F 3 "~" H 5650 1800 50  0001 C CNN
-	2    5450 1800
+	1    5450 1800
 	0    -1   -1   0   
+$EndComp
+$Comp
+L ComponentsEvo:Si7997DP Q4
+U 2 1 617579A3
+P 5000 1800
+F 0 "Q4" V 5342 1800 50  0000 C CNN
+F 1 "Si7997DP" V 5251 1800 50  0000 C CNN
+F 2 "ComponentsEvo:PowerPak-SO8_5.15x6.15mm_Pitch1.27mm_Dual" H 5200 1800 50  0001 C CNN
+F 3 "~" H 5200 1800 50  0001 C CNN
+	2    5000 1800
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	6500 900  6500 800 
