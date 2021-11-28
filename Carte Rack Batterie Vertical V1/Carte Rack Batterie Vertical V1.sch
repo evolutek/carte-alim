@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Carte Rack Batterie Vertical"
-Date "2021-10-25"
-Rev "V1.0"
+Date "2021-11-29"
+Rev "V1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -37,7 +37,7 @@ F 1 "Conn_01x05_Male" H 2572 1583 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" H 2600 1650 50  0001 C CNN
 F 3 "~" H 2600 1650 50  0001 C CNN
 	1    2600 1650
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1600 1450 1950 1450
