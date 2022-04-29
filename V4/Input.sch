@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
 Title "Carte d'alimentation"
-Date "2022-03-13"
-Rev "V4.1"
+Date "2022-04-28"
+Rev "V4.2"
 Comp "Evolutek<< & Coffee Machine"
 Comment1 ""
 Comment2 ""

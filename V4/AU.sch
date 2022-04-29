@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 4
 Title "Carte d'alimentation"
-Date "2022-03-13"
-Rev "V4.1"
+Date "2022-04-28"
+Rev "V4.2"
 Comp "Evolutek<< & Coffee Machine"
 Comment1 ""
 Comment2 ""
@@ -800,8 +800,8 @@ P 6350 1800
 AR Path="/61189FA7/61FC4A53" Ref="R?"  Part="1" 
 AR Path="/61FC4A53" Ref="R?"  Part="1" 
 AR Path="/611EFD14/61FC4A53" Ref="R35"  Part="1" 
-F 0 "R35" V 6400 1650 50  0000 R CNN
-F 1 "1k" V 6400 2000 50  0000 R CNN
+F 0 "R35" V 6400 1700 50  0000 R CNN
+F 1 "10k" V 6400 2050 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6280 1800 50  0001 C CNN
 F 3 "~" H 6350 1800 50  0001 C CNN
 	1    6350 1800
@@ -823,7 +823,7 @@ AR Path="/61189FA7/61FC5308" Ref="R?"  Part="1"
 AR Path="/61FC5308" Ref="R?"  Part="1" 
 AR Path="/611EFD14/61FC5308" Ref="R36"  Part="1" 
 F 0 "R36" H 6580 1904 50  0000 R CNN
-F 1 "1k" H 6580 1995 50  0000 R CNN
+F 1 "22k" H 6580 1995 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 1950 50  0001 C CNN
 F 3 "~" H 6650 1950 50  0001 C CNN
 	1    6650 1950

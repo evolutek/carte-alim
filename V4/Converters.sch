@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 4
 Title "Carte d'alimentation"
-Date "2022-03-13"
-Rev "V4.1"
+Date "2022-04-28"
+Rev "V4.2"
 Comp "Evolutek<< & Coffee Machine"
 Comment1 ""
 Comment2 ""
@@ -443,7 +443,7 @@ F 1 "D" H 1500 3100 50  0001 C CNN
 F 2 "Diode_SMD:D_SOD-523" H 1500 3200 50  0001 C CNN
 F 3 "~" H 1500 3200 50  0001 C CNN
 	1    1500 3200
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D D?
@@ -456,7 +456,7 @@ F 1 "D" H 1500 1500 50  0001 C CNN
 F 2 "Diode_SMD:D_SOD-523" H 1500 1600 50  0001 C CNN
 F 3 "~" H 1500 1600 50  0001 C CNN
 	1    1500 1600
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Connection ~ 1800 3200
 Wire Wire Line
