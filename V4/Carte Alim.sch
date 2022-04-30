@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title "Carte d'alimentation"
-Date "2022-04-28"
+Date "2022-04-30"
 Rev "V4.2"
 Comp "Evolutek<< & Coffee Machine"
 Comment1 ""
@@ -189,10 +189,10 @@ Wire Notes Line
 Text Notes 5800 4750 0    50   ~ 0
 Tester\n
 $Comp
-L Connector:Conn_01x03_Male AX1
+L Connector:Conn_01x03_Male AX12
 U 1 1 5F359BA4
 P 7650 5000
-F 0 "AX1" H 7850 4700 50  0000 R CNN
+F 0 "AX12" H 7850 4700 50  0000 R CNN
 F 1 "Conn_01x03_Male" H 8150 4600 50  0000 R CNN
 F 2 "ConnectorsEvo:22-05-7035" H 7650 5000 50  0001 C CNN
 F 3 "~" H 7650 5000 50  0001 C CNN
