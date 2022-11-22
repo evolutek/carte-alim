@@ -1,4 +1,4 @@
-update=09/12/2021 14:51:26
+update=30/04/2022 11:23:43
 version=1
 last_client=kicad
 [general]
@@ -245,7 +245,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=C:/Users/c.vigourt/Documents/GitHubDesktop/lib-elec/TemplateKicad/TemplateEvolutek&CoffeeMachine.kicad_wks
+PageLayoutDescrFile=C:/Users/coren/Documents/Repos/lib-elec/TemplateKicad/TemplateEvolutek&CoffeeMachine.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
