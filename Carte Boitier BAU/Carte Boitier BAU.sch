@@ -5,49 +5,14 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Carte Boitier BAU"
-Date "2022-11-11"
-Rev "V1.0"
+Date "2022-12-02"
+Rev "V1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Conn_01x01_Female VCC-IN1
-U 1 1 636ECA72
-P 1050 950
-F 0 "VCC-IN1" H 1050 850 50  0000 C CNN
-F 1 "Banana Plug Staubli Red" H 1050 1050 50  0000 C CNN
-F 2 "ConnectorsEvo:Banana_Plug_Staubli_Red" H 1050 950 50  0001 C CNN
-F 3 "~" H 1050 950 50  0001 C CNN
-	1    1050 950 
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female GND-IN1
-U 1 1 636ED3C4
-P 1050 1300
-F 0 "GND-IN1" H 1050 1200 50  0000 C CNN
-F 1 "Banana Plug Staubli Black" H 1050 1400 50  0000 C CNN
-F 2 "ConnectorsEvo:Banana_Plug_Staubli_Black" H 1050 1300 50  0001 C CNN
-F 3 "~" H 1050 1300 50  0001 C CNN
-	1    1050 1300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VCC #PWR01
-U 1 1 636ED98D
-P 1800 950
-F 0 "#PWR01" H 1800 800 50  0001 C CNN
-F 1 "VCC" H 1815 1123 50  0000 C CNN
-F 2 "" H 1800 950 50  0001 C CNN
-F 3 "" H 1800 950 50  0001 C CNN
-	1    1800 950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 950  1250 950 
 $Comp
 L power:GND #PWR02
 U 1 1 636EE1FA
@@ -59,15 +24,13 @@ F 3 "" H 1800 1300 50  0001 C CNN
 	1    1800 1300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1800 1300 1250 1300
 $Comp
 L Mechanical:MountingHole_Pad VCC-OUT1
 U 1 1 636FA28E
 P 4250 900
 F 0 "VCC-OUT1" V 4204 1050 50  0000 L CNN
 F 1 "MountingHole_Pad" V 4295 1050 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad_TopOnly" H 4250 900 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad_TopOnly" H 4250 900 50  0001 C CNN
 F 3 "~" H 4250 900 50  0001 C CNN
 	1    4250 900 
 	0    1    1    0   
@@ -89,7 +52,7 @@ U 1 1 636FAFAF
 P 4250 1300
 F 0 "GND-OUT1" V 4204 1450 50  0000 L CNN
 F 1 "MountingHole_Pad" V 4295 1450 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad_TopOnly" H 4250 1300 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad_TopOnly" H 4250 1300 50  0001 C CNN
 F 3 "~" H 4250 1300 50  0001 C CNN
 	1    4250 1300
 	0    1    1    0   
@@ -154,17 +117,6 @@ F 3 "~" H 3400 750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR04
-U 1 1 636FDD13
-P 2550 750
-F 0 "#PWR04" H 2550 600 50  0001 C CNN
-F 1 "VCC" H 2565 923 50  0000 C CNN
-F 2 "" H 2550 750 50  0001 C CNN
-F 3 "" H 2550 750 50  0001 C CNN
-	1    2550 750 
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR05
 U 1 1 636FDD1D
 P 2850 1350
@@ -178,22 +130,11 @@ $EndComp
 Wire Wire Line
 	3200 850  2850 850 
 $Comp
-L Device:Q_NMOS_GSD Q1
-U 1 1 636FFDC6
-P 2750 1050
-F 0 "Q1" H 2950 900 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 2900 800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2950 1150 50  0001 C CNN
-F 3 "~" H 2750 1050 50  0001 C CNN
-	1    2750 1050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R2
 U 1 1 63701EC2
 P 2550 1200
 F 0 "R2" H 2481 1154 50  0000 R CNN
-F 1 "R" H 2481 1245 50  0000 R CNN
+F 1 "1K" H 2481 1245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 1200 50  0001 C CNN
 F 3 "~" H 2550 1200 50  0001 C CNN
 	1    2550 1200
@@ -209,35 +150,30 @@ L Device:R R1
 U 1 1 63702B12
 P 2550 900
 F 0 "R1" H 2481 854 50  0000 R CNN
-F 1 "R" H 2481 945 50  0000 R CNN
+F 1 "1K" H 2481 945 50  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 900 50  0001 C CNN
 F 3 "~" H 2550 900 50  0001 C CNN
 	1    2550 900 
 	1    0    0    1   
 $EndComp
 Connection ~ 2550 1050
-Connection ~ 2550 750 
 $Comp
 L Mechanical:MountingHole_Pad BAU-OUT1
 U 1 1 63703232
 P 4250 1100
 F 0 "BAU-OUT1" V 4204 1250 50  0000 L CNN
 F 1 "MountingHole_Pad" V 4295 1250 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopOnly" H 4250 1100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 4250 1100 50  0001 C CNN
 F 3 "~" H 4250 1100 50  0001 C CNN
 	1    4250 1100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2550 750  3200 750 
-Wire Wire Line
 	4150 1100 3850 1100
 Text Label 3850 1100 0    50   ~ 0
 ~BAU
-Text Label 2100 1050 0    50   ~ 0
+Text Label 2350 750  0    50   ~ 0
 ~BAU
-Wire Wire Line
-	2100 1050 2550 1050
 $Comp
 L Connector:Conn_01x02_Male BAU1
 U 1 1 637049FD
@@ -314,6 +250,69 @@ Text Notes 4250 650  0    50   ~ 0
 Power OUT
 Text Notes 2700 1800 0    50   ~ 0
 Power Led
-Text Notes 2650 650  0    50   ~ 0
+Text Notes 3250 250  0    50   ~ 0
 BAU Led
+$Comp
+L power:VCC #PWR04
+U 1 1 636FDD13
+P 2850 750
+F 0 "#PWR04" H 2850 600 50  0001 C CNN
+F 1 "VCC" H 2865 923 50  0000 C CNN
+F 2 "" H 2850 750 50  0001 C CNN
+F 3 "" H 2850 750 50  0001 C CNN
+	1    2850 750 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 750  3200 750 
+$Comp
+L Device:Q_NMOS_GSD Q1
+U 1 1 636FFDC6
+P 2750 1050
+F 0 "Q1" H 2950 900 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 2900 800 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2950 1150 50  0001 C CNN
+F 3 "~" H 2750 1050 50  0001 C CNN
+	1    2750 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 750  2350 750 
+$Comp
+L Connector:Conn_01x01_Female GND-IN1
+U 1 1 636ED3C4
+P 1050 1300
+F 0 "GND-IN1" H 1050 1200 50  0000 C CNN
+F 1 "Banana Plug Staubli Black" H 1050 1400 50  0000 C CNN
+F 2 "ConnectorsEvo:Banana_Plug_Staubli_Black" H 1050 1300 50  0001 C CNN
+F 3 "~" H 1050 1300 50  0001 C CNN
+	1    1050 1300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 1300 1250 1300
+Wire Wire Line
+	1800 950  1250 950 
+$Comp
+L power:VCC #PWR01
+U 1 1 636ED98D
+P 1800 950
+F 0 "#PWR01" H 1800 800 50  0001 C CNN
+F 1 "VCC" H 1815 1123 50  0000 C CNN
+F 2 "" H 1800 950 50  0001 C CNN
+F 3 "" H 1800 950 50  0001 C CNN
+	1    1800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female VCC-IN1
+U 1 1 636ECA72
+P 1050 950
+F 0 "VCC-IN1" H 1050 850 50  0000 C CNN
+F 1 "Banana Plug Staubli Red" H 1050 1050 50  0000 C CNN
+F 2 "ConnectorsEvo:Banana_Plug_Staubli_Red" H 1050 950 50  0001 C CNN
+F 3 "~" H 1050 950 50  0001 C CNN
+	1    1050 950 
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
