@@ -2291,7 +2291,7 @@
   )
 
   (symbol (lib_id "Converter_DCDC:PTN78020W_EUK-7") (at 116.84 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 0e5100e1-9ff1-41d4-91b1-bf187febb4d8)
     (property "Reference" "U2" (at 116.84 17.145 0)
       (effects (font (size 1.27 1.27)))
@@ -3087,7 +3087,7 @@
   )
 
   (symbol (lib_id "Converter_DCDC:PTN78060W_EUW-7") (at 116.84 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 62114561-3da0-4496-a777-c102d4310cab)
     (property "Reference" "U3" (at 116.84 40.005 0)
       (effects (font (size 1.27 1.27)))
