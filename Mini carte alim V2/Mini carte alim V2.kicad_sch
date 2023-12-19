@@ -2435,7 +2435,7 @@
     (uuid fcdce8d7-5e93-4cd1-b4ac-1a1228555d91)
   )
 
-  (text "4: GND A\n5: GND O\n6: GND B" (at 113.03 22.86 0)
+  (text "4: GND B\n5: GND O\n6: GND A" (at 113.03 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1aba53dc-8085-42fd-aaa5-f2df2c5617d0)
   )
@@ -2457,7 +2457,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 369d1b90-68e8-490c-9d2c-09062371a9f1)
   )
-  (text "1: Led A Pwr\n2: Leds Signal\n3: Led B Pwr" (at 96.52 22.86 0)
+  (text "1: Led B Pwr\n2: Leds Signal\n3: Led A Pwr" (at 96.52 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 915e9c0d-9192-4178-8b24-8d24528a015a)
   )
