@@ -48,8 +48,26 @@
           "min_clearance": 0.25
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|33000000|34362571|f4b8bc24-b122-4b10-a431-f86b1e045cb7|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|0|0|231f3116-7236-48e7-a1d2-373435bafd7d|84b780cb-aa9e-4fd8-bc77-0862eeddd448",
+        "silk_overlap|0|0|64ef1186-0d9a-4663-a4db-40c6148548bd|84b780cb-aa9e-4fd8-bc77-0862eeddd448",
+        "silk_overlap|31670000|33684571|51997abc-10b2-4d3d-a68a-915cf61d82c5|cc9d1374-217f-44de-a4c1-cc9bf1a6bdd7",
+        "silk_overlap|31670000|35863810|e1a57592-5db0-4d17-9db1-346844f175be|cc9d1374-217f-44de-a4c1-cc9bf1a6bdd7",
+        "silk_overlap|31705476|30960000|3397454d-d8a3-4eb5-baa5-5fa8f18643a9|51997abc-10b2-4d3d-a68a-915cf61d82c5",
+        "silk_overlap|31705476|38640000|e1a57592-5db0-4d17-9db1-346844f175be|a897788e-b2e7-49e4-abba-c851524e8994",
+        "silk_overlap|33006628|28232018|cb98430c-16a3-4de1-a9a7-b80df808de2e|354b9b45-83dc-4ba2-9e25-9a012f13c3d1",
+        "silk_overlap|34360762|28360000|231f3116-7236-48e7-a1d2-373435bafd7d|354b9b45-83dc-4ba2-9e25-9a012f13c3d1",
+        "silk_overlap|34360762|29690000|231f3116-7236-48e7-a1d2-373435bafd7d|9deb6300-9a5d-4197-b63c-ec5ac8e28f94",
+        "silk_overlap|34360762|30960000|231f3116-7236-48e7-a1d2-373435bafd7d|3397454d-d8a3-4eb5-baa5-5fa8f18643a9"
+      ],
       "meta": {
         "version": 2
       },
@@ -165,8 +183,17 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.5,
+        1.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -428,7 +455,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "output/USB C montage panneau.step",
+      "step": "Output/USB C montage panneau.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
