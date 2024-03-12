@@ -1385,7 +1385,7 @@
   (symbol (lib_id "power:VCC") (at 163.83 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 021dd6f6-dd71-454b-abec-389addab00e4)
-    (property "Reference" "#PWR092" (at 163.83 30.48 0)
+    (property "Reference" "#PWR093" (at 163.83 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 163.83 21.59 0)
@@ -1401,7 +1401,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -1442,7 +1442,7 @@
   (symbol (lib_id "Device:R") (at 43.18 78.74 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0772ea61-84df-4582-8a77-d11a7637fb28)
-    (property "Reference" "R36" (at 45.72 76.2 90)
+    (property "Reference" "R37" (at 45.72 76.2 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 44.45 78.74 90)
@@ -1459,7 +1459,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "R36") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -1468,7 +1468,7 @@
   (symbol (lib_id "Device:R") (at 115.57 29.21 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 0f1cb77f-844a-4e8e-9930-d1b4bfd19995)
-    (property "Reference" "R39" (at 118.11 27.94 0)
+    (property "Reference" "R40" (at 118.11 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 118.11 30.48 0)
@@ -1485,7 +1485,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "R39") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -1520,7 +1520,7 @@
   (symbol (lib_id "power:VCC") (at 66.04 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 248e5769-383c-4225-82c9-0a1a3a3d2e1b)
-    (property "Reference" "#PWR085" (at 66.04 26.67 0)
+    (property "Reference" "#PWR086" (at 66.04 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 66.04 17.78 0)
@@ -1536,7 +1536,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -1571,7 +1571,7 @@
   (symbol (lib_id "power:GND") (at 220.98 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e229896-34ab-4610-9ecb-349c8492b841)
-    (property "Reference" "#PWR094" (at 220.98 50.8 0)
+    (property "Reference" "#PWR095" (at 220.98 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 49.53 0)
@@ -1587,7 +1587,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -1596,7 +1596,7 @@
   (symbol (lib_id "Device:R") (at 205.74 73.66 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 32417996-5182-4f5f-90db-f5e68992882e)
-    (property "Reference" "R43" (at 208.28 72.39 0)
+    (property "Reference" "R44" (at 208.28 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 208.28 74.93 0)
@@ -1613,7 +1613,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "R43") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -1622,7 +1622,7 @@
   (symbol (lib_id "Device:R") (at 115.57 72.39 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4004063d-2d70-4d83-bcd9-586863dd3e5c)
-    (property "Reference" "R41" (at 118.11 71.12 0)
+    (property "Reference" "R42" (at 118.11 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 118.11 73.66 0)
@@ -1639,7 +1639,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "R41") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -1648,7 +1648,7 @@
   (symbol (lib_id "power:+12L") (at 220.98 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 433e2d4e-a89f-45d7-9f0d-8b25feb76539)
-    (property "Reference" "#PWR093" (at 220.98 34.29 0)
+    (property "Reference" "#PWR094" (at 220.98 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12L" (at 220.98 25.4 0)
@@ -1664,7 +1664,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -1771,7 +1771,7 @@
   (symbol (lib_id "Device:R") (at 115.57 85.09 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 5fbb762f-676d-4868-b0c3-459457886dce)
-    (property "Reference" "R42" (at 118.11 83.82 0)
+    (property "Reference" "R43" (at 118.11 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 118.11 86.36 0)
@@ -1788,7 +1788,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "R42") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -1797,7 +1797,7 @@
   (symbol (lib_id "power:VCC") (at 156.21 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60d11a25-1361-4d2c-9989-876a660e64e5)
-    (property "Reference" "#PWR091" (at 156.21 71.12 0)
+    (property "Reference" "#PWR092" (at 156.21 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 156.21 62.23 0)
@@ -1813,7 +1813,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -1822,7 +1822,7 @@
   (symbol (lib_id "Device:R") (at 43.18 35.56 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61bc8ab7-ac8a-4d06-9988-425d4ab2f690)
-    (property "Reference" "R35" (at 45.72 33.02 90)
+    (property "Reference" "R36" (at 45.72 33.02 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 44.45 35.56 90)
@@ -1839,7 +1839,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "R35") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -1874,7 +1874,7 @@
   (symbol (lib_id "Device:R") (at 205.74 86.36 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 6feb3fab-c2a7-4caf-aa6c-90ceba8f9030)
-    (property "Reference" "R44" (at 208.28 85.09 0)
+    (property "Reference" "R45" (at 208.28 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 208.28 87.63 0)
@@ -1891,7 +1891,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "R44") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -1900,7 +1900,7 @@
   (symbol (lib_id "power:VCC") (at 66.04 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 706824e9-9224-4664-99a6-310e0172ecbc)
-    (property "Reference" "#PWR086" (at 66.04 69.85 0)
+    (property "Reference" "#PWR087" (at 66.04 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 66.04 60.96 0)
@@ -1916,7 +1916,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -1925,7 +1925,7 @@
   (symbol (lib_id "Device:R") (at 62.23 85.09 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 7094f336-3ee6-49da-ac0f-4466bc06cf08)
-    (property "Reference" "R38" (at 58.42 83.82 0)
+    (property "Reference" "R39" (at 58.42 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 58.42 86.36 0)
@@ -1942,7 +1942,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "R38") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -1951,7 +1951,7 @@
   (symbol (lib_id "power:GND") (at 137.16 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 709a82ad-7737-4217-b35e-4b19c984a47f)
-    (property "Reference" "#PWR090" (at 137.16 97.79 0)
+    (property "Reference" "#PWR091" (at 137.16 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 96.52 0)
@@ -1967,7 +1967,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -1976,7 +1976,7 @@
   (symbol (lib_id "Device:R") (at 62.23 41.91 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp yes)
     (uuid 718b12f9-490c-4bd7-ba45-565c244a6fcf)
-    (property "Reference" "R37" (at 58.42 40.64 0)
+    (property "Reference" "R38" (at 58.42 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 58.42 43.18 0)
@@ -1993,7 +1993,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "R37") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -2056,7 +2056,7 @@
   (symbol (lib_id "power:GND") (at 227.33 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82667042-ecb1-49a1-ae6b-b15856475ccf)
-    (property "Reference" "#PWR096" (at 227.33 99.06 0)
+    (property "Reference" "#PWR097" (at 227.33 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 227.33 97.79 0)
@@ -2072,7 +2072,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -2081,7 +2081,7 @@
   (symbol (lib_id "power:+5VL") (at 227.33 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cd4a1fb-bfbf-449d-84de-440dec88603a)
-    (property "Reference" "#PWR095" (at 227.33 71.12 0)
+    (property "Reference" "#PWR096" (at 227.33 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VL" (at 227.33 62.23 0)
@@ -2097,7 +2097,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -2106,7 +2106,7 @@
   (symbol (lib_id "power:+12P") (at 137.16 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91e09549-a05c-4390-a9e8-2eaed9bfd561)
-    (property "Reference" "#PWR087" (at 137.16 26.67 0)
+    (property "Reference" "#PWR088" (at 137.16 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12P" (at 137.16 19.05 0)
@@ -2122,7 +2122,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -2131,7 +2131,7 @@
   (symbol (lib_id "power:GND") (at 137.16 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97fb337d-df0e-4c78-b420-c778a67d66c5)
-    (property "Reference" "#PWR088" (at 137.16 54.61 0)
+    (property "Reference" "#PWR089" (at 137.16 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.16 53.34 0)
@@ -2147,7 +2147,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -2182,7 +2182,7 @@
   (symbol (lib_id "Device:R") (at 115.57 41.91 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid acc59897-0204-4295-be65-9a55227666be)
-    (property "Reference" "R40" (at 118.11 40.64 0)
+    (property "Reference" "R41" (at 118.11 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "R" (at 118.11 43.18 0)
@@ -2199,7 +2199,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "R40") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -2208,7 +2208,7 @@
   (symbol (lib_id "power:+5P") (at 137.16 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid af81595d-1483-4470-ae44-faa7ff0c8545)
-    (property "Reference" "#PWR089" (at 137.16 69.85 0)
+    (property "Reference" "#PWR090" (at 137.16 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5P" (at 137.16 62.23 0)
@@ -2224,7 +2224,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
