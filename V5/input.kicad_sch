@@ -2455,7 +2455,7 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 448c23bc-7901-47c5-acc6-d5fb025a27a4)
   )
-  (text_box "External Input Power with AU - 26V max"
+  (text_box "External Input Power with AU 9 - 26V"
     (at 12.7 45.72 0) (size 59.69 38.1)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -2522,7 +2522,7 @@
     (uuid 82a96395-745f-4f4e-ae74-5dcde8002a19)
   )
   (text "Power button is a RGB tactile switch.\nThe Red, Blue and Green led have a common anode."
-    (at 16.51 124.46 0)
+    (at 16.51 125.73 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 86b899f1-f228-4cfb-b67e-a27c633eebd2)
   )
@@ -2539,10 +2539,6 @@
     (at 250.19 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b0032d94-ab6b-41da-ba14-b94e7ae6aea7)
-  )
-  (text "BACKLOG: Wire alert?" (at 57.15 189.23 0)
-    (effects (font (size 4 4)) (justify left bottom))
-    (uuid b3bf5d67-49fe-45db-b4e6-d0d90e4e2e16)
   )
 
   (label "VBAT_F" (at 86.36 25.4 180) (fields_autoplaced)

@@ -2694,7 +2694,7 @@
   (symbol (lib_id "Device:D_Zener") (at 68.58 182.88 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 453610d1-ed7a-430d-8c5d-c58acf1d1816)
-    (property "Reference" "D12" (at 66.04 181.61 90)
+    (property "Reference" "D6" (at 66.04 181.61 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3V" (at 66.04 184.15 90)
@@ -2711,7 +2711,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "D12") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -2772,7 +2772,7 @@
   (symbol (lib_id "Device:R") (at 132.08 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cde0099-b1e1-4a62-a17b-7058bb624785)
-    (property "Reference" "R25" (at 134.62 69.85 0)
+    (property "Reference" "R24" (at 134.62 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 134.62 72.39 0)
@@ -2789,7 +2789,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "R25") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -3031,7 +3031,7 @@
   (symbol (lib_id "Device:LED") (at 132.08 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 912037b0-500b-48cb-ab4f-63f9b76139dd)
-    (property "Reference" "D6" (at 135.89 150.1775 90)
+    (property "Reference" "D7" (at 135.89 150.1775 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "YELLOW" (at 135.89 152.7175 90)
@@ -3048,7 +3048,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "D6") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -3140,7 +3140,7 @@
   (symbol (lib_id "Device:D_Zener") (at 236.22 36.83 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 98c85b01-f465-4c78-a0d1-e00e3c9d8877)
-    (property "Reference" "D7" (at 238.76 35.56 90)
+    (property "Reference" "D8" (at 238.76 35.56 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15V" (at 238.76 38.1 90)
@@ -3157,7 +3157,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "D7") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -3242,7 +3242,7 @@
   (symbol (lib_id "Device:D") (at 247.65 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6404be5-5f29-472d-915a-6f59f6b5563c)
-    (property "Reference" "D8" (at 247.65 19.05 0)
+    (property "Reference" "D9" (at 247.65 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 247.65 21.59 0)
@@ -3265,7 +3265,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "D8") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -3627,7 +3627,7 @@
     (property "Reference" "R13" (at 33.02 163.83 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "78.7k" (at 34.29 166.37 90)
+    (property "Value" "33k" (at 34.29 166.37 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 31.75 164.592 90)
@@ -3832,7 +3832,7 @@
   (symbol (lib_id "Device:R") (at 132.08 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6ae88d9-87e3-440c-8788-6e1b75ca605a)
-    (property "Reference" "R24" (at 134.62 158.75 0)
+    (property "Reference" "R25" (at 134.62 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 134.62 161.29 0)
@@ -3849,7 +3849,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "R24") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
