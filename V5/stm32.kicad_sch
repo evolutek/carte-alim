@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Carte Alim")
+    (date "2024-03-26")
+    (rev "V5.0")
+  )
+
   (lib_symbols
     (symbol "ComponentsEvo:435431019840" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (at -6.35 -1.27 90)
@@ -3705,7 +3711,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 77d4aead-b27a-4a07-a19c-8ed35062163d)
   )
-  (text "- TIM4 is used to drive the RGB power button led\n- FDCAN1 is used to interface the STM32 with the CAN bus\n- I2C2 is used to communicate with all onboard sensors\n- UART2 is used for debugging\n- ~{INT_LTC} / AU_ROBOT / AU_EXT / POWER_HOLD\\\nare used as external interrupts"
+  (text "- TIM4 is used to drive the RGB power button led\n- FDCAN1 is used to interface the STM32 with the CAN bus\n- I2C2 is used to communicate with all onboard sensors\n- UART2 is used for debugging\n- ~{INT_LTC} / AU_ROBOT / AU_EXT / POWER_HOLD\\\nare used as external interrupts\n- PB8 (BOOT0) is mapped as and output PWM\n(need to set nBOOT_SEL option byte to not use PB8 as BOOT0 pin)"
     (at 19.05 156.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8f7c6602-e39e-4abd-a2c0-e4216bc9c255)
@@ -3972,7 +3978,7 @@
   (symbol (lib_id "Device:LED") (at 184.15 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15bde42b-9635-4989-b35b-84ef6d5d7fa8)
-    (property "Reference" "D12" (at 187.96 75.2475 90)
+    (property "Reference" "D13" (at 187.96 75.2475 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "GREEN" (at 187.96 77.7875 90)
@@ -3989,7 +3995,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "D12") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )

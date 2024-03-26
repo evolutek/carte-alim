@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Carte Alim")
+    (date "2024-03-26")
+    (rev "V5.0")
+  )
+
   (lib_symbols
     (symbol "ComponentsEvo:LTC2952CUF#PBF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 16.51 0)

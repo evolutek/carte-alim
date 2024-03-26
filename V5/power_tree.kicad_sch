@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Carte Alim")
+    (date "2024-03-26")
+    (rev "V5.0")
+  )
+
   (lib_symbols
   )
 

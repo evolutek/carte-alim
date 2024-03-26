@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Carte Alim")
+    (date "2024-03-26")
+    (rev "V5.0")
+  )
+
   (lib_symbols
     (symbol "Jumper:SolderJumper_2_Bridged" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "JP" (at 0 2.032 0)
@@ -559,7 +565,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 36d97383-daab-49d7-ae8a-bdbb07fdb827)
-    (property "Sheetname" "Output Connectord" (at 139.7 91.9984 0)
+    (property "Sheetname" "Output Connectors" (at 139.7 91.9984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "output_connectors.kicad_sch" (at 139.7 104.7246 0)
@@ -826,6 +832,6 @@
   )
 
   (sheet_instances
-    (path "/" (page "3"))
+    (path "/" (page "1"))
   )
 )
