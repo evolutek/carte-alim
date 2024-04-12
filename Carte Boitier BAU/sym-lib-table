@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Carte Boitier BAU-rescue")(type "KiCad")(uri "${KIPRJMOD}/Carte Boitier BAU-rescue.kicad_sym")(options "")(descr ""))
+)
