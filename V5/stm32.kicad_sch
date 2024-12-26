@@ -3752,7 +3752,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -3832,7 +3832,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -3860,7 +3860,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -3869,7 +3869,7 @@
   (symbol (lib_id "power:+5VL") (at 132.08 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f23cb54-d062-4966-94af-521440affb56)
-    (property "Reference" "#PWR054" (at 132.08 27.94 0)
+    (property "Reference" "#PWR055" (at 132.08 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VL" (at 132.08 19.05 0)
@@ -3885,7 +3885,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -3913,7 +3913,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -4052,7 +4052,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -4271,7 +4271,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 177.8 72.39 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91d52d15-b7d6-479a-85ef-1fe7356cd9a1)
-    (property "Reference" "JP6" (at 180.34 71.12 90)
+    (property "Reference" "JP5" (at 180.34 71.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper_2_Open" (at 180.34 73.66 90)
@@ -4288,7 +4288,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "JP6") (unit 1)
+          (reference "JP5") (unit 1)
         )
       )
     )
@@ -4316,7 +4316,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -4344,7 +4344,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -4398,7 +4398,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -4407,7 +4407,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 184.15 30.48 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e46b18bb-a1b9-4ddc-9aef-29c62740da65)
-    (property "Reference" "JP7" (at 186.69 29.21 90)
+    (property "Reference" "JP6" (at 186.69 29.21 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper_2_Open" (at 186.69 31.75 90)
@@ -4424,7 +4424,7 @@
     (instances
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "JP7") (unit 1)
+          (reference "JP6") (unit 1)
         )
       )
     )
@@ -4452,7 +4452,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
