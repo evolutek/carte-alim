@@ -2035,7 +2035,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 246.38 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 549c984e-a966-4584-961a-7585f6202b9e)
-    (property "Reference" "#FLG?" (at 246.38 73.025 0)
+    (property "Reference" "#FLG08" (at 246.38 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 246.38 69.85 0)
@@ -2050,9 +2050,6 @@
     (pin "1" (uuid 5a17d9b8-03b1-42ab-a81c-cb17931edf8f))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "#FLG?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
           (reference "#FLG08") (unit 1)
         )
@@ -2063,7 +2060,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 240.03 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55aa125d-578d-4de6-9b53-f934471e99b0)
-    (property "Reference" "#FLG?" (at 240.03 28.575 0)
+    (property "Reference" "#FLG07" (at 240.03 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 240.03 25.4 0)
@@ -2078,9 +2075,6 @@
     (pin "1" (uuid 0c147ce4-682c-4a7a-9bb1-3f79ad512f75))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "#FLG?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
           (reference "#FLG07") (unit 1)
         )
@@ -2270,7 +2264,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 153.67 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72227ce7-4f24-4c3e-bef4-22f916aad4d4)
-    (property "Reference" "#FLG?" (at 153.67 22.225 0)
+    (property "Reference" "#FLG05" (at 153.67 22.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 153.67 19.05 0)
@@ -2285,9 +2279,6 @@
     (pin "1" (uuid ed192a81-2070-46a5-b4d2-bc0a3b8dc9ee))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "#FLG?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
           (reference "#FLG05") (unit 1)
         )
@@ -2870,7 +2861,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 153.67 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa53db04-21bb-46a2-add9-4a1b2be83d66)
-    (property "Reference" "#FLG?" (at 153.67 73.025 0)
+    (property "Reference" "#FLG06" (at 153.67 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 153.67 69.85 0)
@@ -2885,9 +2876,6 @@
     (pin "1" (uuid 762de88f-d433-46d0-9eb4-5dd907ea427f))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "#FLG?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/b377d340-be49-40ff-b06f-3d8ffaea242a"
           (reference "#FLG06") (unit 1)
         )

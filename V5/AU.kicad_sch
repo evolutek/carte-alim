@@ -2341,7 +2341,7 @@
   (symbol (lib_id "Sensor_Temperature:MCP9808_MSOP") (at 257.81 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0955788e-405a-4603-ada5-f728c8ed43a0)
-    (property "Reference" "U?" (at 257.81 93.98 0)
+    (property "Reference" "U8" (at 257.81 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MCP9808_MSOP" (at 257.81 96.52 0)
@@ -2363,9 +2363,6 @@
     (pin "8" (uuid 7b50d450-56af-4649-a822-adafca50e9d2))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "U?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
           (reference "U8") (unit 1)
         )
@@ -2453,7 +2450,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 142.24 49.53 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1339542b-acef-442a-8542-f6f43e214ff7)
-    (property "Reference" "JP?" (at 139.7 48.26 90)
+    (property "Reference" "JP4" (at 139.7 48.26 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Jumper_2_Open" (at 139.7 50.8 90)
@@ -2469,9 +2466,6 @@
     (pin "2" (uuid 4de04eaa-5c86-454f-9c41-4797a420292d))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "JP?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
           (reference "JP4") (unit 1)
         )
@@ -2611,7 +2605,7 @@
   (symbol (lib_id "power:GND") (at 271.78 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ae7c053-5622-44c8-a80f-6fe5cb526e68)
-    (property "Reference" "#PWR?" (at 271.78 130.81 0)
+    (property "Reference" "#PWR036" (at 271.78 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 271.78 129.54 0)
@@ -2626,12 +2620,6 @@
     (pin "1" (uuid 3220f682-91b5-43eb-897a-f0d5143fdc50))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
           (reference "#PWR036") (unit 1)
         )
@@ -3163,7 +3151,7 @@
   (symbol (lib_id "power:+3.3V") (at 271.78 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9380f93a-8272-4270-a99f-33e7e949fdd7)
-    (property "Reference" "#PWR?" (at 271.78 102.87 0)
+    (property "Reference" "#PWR035" (at 271.78 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 271.78 93.98 0)
@@ -3178,12 +3166,6 @@
     (pin "1" (uuid c4f05f8c-d84b-4a67-bc31-c6a571423721))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
           (reference "#PWR035") (unit 1)
         )
@@ -3328,7 +3310,7 @@
   (symbol (lib_id "Device:C") (at 271.78 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6d406b1-5fe3-48ef-9eef-b42afdad85a1)
-    (property "Reference" "C?" (at 275.59 101.6 0)
+    (property "Reference" "C22" (at 275.59 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 275.59 104.14 0)
@@ -3344,12 +3326,6 @@
     (pin "2" (uuid 6bc91834-5824-4c6c-8a55-181437efd85e))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "C?") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "C?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
           (reference "C22") (unit 1)
         )

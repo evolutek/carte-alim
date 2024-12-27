@@ -3665,7 +3665,7 @@
     (uuid fd77788f-58c2-46b8-a833-d7eaccc81a11)
   )
 
-  (hierarchical_label "GREEN_CHANNEL" (shape output) (at 38.1 68.58 180) (fields_autoplaced)
+  (hierarchical_label "GREEN_CHANNEL" (shape output) (at 38.1 71.12 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0faace76-17b2-4c8e-8ca0-f3c68dbf25f8)
   )
@@ -3673,7 +3673,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1ef19b5e-2a4f-4d8f-bd17-9c417e4fe76e)
   )
-  (hierarchical_label "AU_ROBOT_STATUS" (shape input) (at 74.93 55.88 0) (fields_autoplaced)
+  (hierarchical_label "AU_ROBOT_STATUS" (shape input) (at 74.93 58.42 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 24699733-405f-440b-ac9c-bb59529cc455)
   )
@@ -3689,7 +3689,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 455c3d59-d4bb-4698-869d-5be7febc27a7)
   )
-  (hierarchical_label "RED_CHANNEL" (shape output) (at 38.1 71.12 180) (fields_autoplaced)
+  (hierarchical_label "RED_CHANNEL" (shape output) (at 38.1 68.58 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5c6fee2c-e0d2-4b37-b58c-8882a17be6df)
   )
@@ -3709,7 +3709,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9912484e-e471-4100-a2fc-d3ddbb1df2f7)
   )
-  (hierarchical_label "AU_EXT_STATUS" (shape input) (at 74.93 58.42 0) (fields_autoplaced)
+  (hierarchical_label "AU_EXT_STATUS" (shape input) (at 74.93 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a087f070-5f62-4875-94ff-a6e7cf11f85c)
   )
@@ -3733,7 +3733,7 @@
   (symbol (lib_id "power:+3.3V") (at 177.8 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 087199bc-7082-4e85-bf88-458205742165)
-    (property "Reference" "#PWR?" (at 177.8 71.12 0)
+    (property "Reference" "#PWR057" (at 177.8 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 177.8 62.23 0)
@@ -3748,9 +3748,6 @@
     (pin "1" (uuid afa2a326-89bf-412c-8d64-039a2ab01e48))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "#PWR057") (unit 1)
         )
@@ -3813,7 +3810,7 @@
   (symbol (lib_id "power:+3.3V") (at 228.6 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 182dd2e7-8fe0-4768-bd6c-4faa9ed54596)
-    (property "Reference" "#PWR?" (at 228.6 33.02 0)
+    (property "Reference" "#PWR060" (at 228.6 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 228.6 24.13 0)
@@ -3828,9 +3825,6 @@
     (pin "1" (uuid 53b1e565-9cc1-40d6-b91a-66480a7d1a7f))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "#PWR060") (unit 1)
         )
@@ -3841,7 +3835,7 @@
   (symbol (lib_id "power:GND") (at 224.79 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 18fe14c3-ebfb-4834-a516-a21e96be3005)
-    (property "Reference" "#PWR?" (at 224.79 96.52 0)
+    (property "Reference" "#PWR059" (at 224.79 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 224.79 95.25 0)
@@ -3856,9 +3850,6 @@
     (pin "1" (uuid 640ead07-f9d3-41f5-9081-723e8f6989a3))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "#PWR059") (unit 1)
         )
@@ -3894,7 +3885,7 @@
   (symbol (lib_id "power:GND") (at 177.8 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2169ac1e-ff0f-448b-b571-90c83c199923)
-    (property "Reference" "#PWR?" (at 177.8 93.98 0)
+    (property "Reference" "#PWR058" (at 177.8 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 92.71 0)
@@ -3909,9 +3900,6 @@
     (pin "1" (uuid 69a8176b-0e49-4c91-8416-b667001dde2e))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "#PWR058") (unit 1)
         )
@@ -3974,7 +3962,7 @@
   (symbol (lib_id "ComponentsEvo:STM32G491KEUx") (at 57.15 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e01d7d7-37b0-4c2d-881a-8c7d8dda69b8)
-    (property "Reference" "U?" (at 61.8841 88.9 0)
+    (property "Reference" "U9" (at 61.8841 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32G491KEUx" (at 61.8841 91.44 0)
@@ -4020,9 +4008,6 @@
     (pin "9" (uuid 362fc1be-447c-4f9d-a942-052b3770d478))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "U?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "U9") (unit 1)
         )
@@ -4033,7 +4018,7 @@
   (symbol (lib_id "power:+3.3V") (at 105.41 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fcc1887-78e5-43fa-8625-ea7582a0e748)
-    (property "Reference" "#PWR?" (at 105.41 29.21 0)
+    (property "Reference" "#PWR053" (at 105.41 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 105.41 20.32 0)
@@ -4048,9 +4033,6 @@
     (pin "1" (uuid 57cf6895-71c6-49c4-a37d-1381080f4e03))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "#PWR053") (unit 1)
         )
@@ -4113,7 +4095,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x03_Top_Bottom") (at 156.21 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c5dc4bd-4c92-4c76-942f-2582ea6b2f19)
-    (property "Reference" "J?" (at 157.48 71.12 0)
+    (property "Reference" "J5" (at 157.48 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Comm" (at 157.48 73.66 0)
@@ -4133,9 +4115,6 @@
     (pin "6" (uuid 21072523-50a4-416f-b83e-36ae0294da3a))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "J?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "J5") (unit 1)
         )
@@ -4178,7 +4157,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x07_Odd_Even") (at 243.84 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 755ef9f2-f69e-4fa7-9eaf-be3b5441f70a)
-    (property "Reference" "J?" (at 245.11 20.32 0)
+    (property "Reference" "J6" (at 245.11 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "STLINK" (at 245.11 22.86 0)
@@ -4206,9 +4185,6 @@
     (pin "9" (uuid 8483a312-08e1-4191-b9f8-7831b8aaea34))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "J?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "J6") (unit 1)
         )
@@ -4297,7 +4273,7 @@
   (symbol (lib_id "power:GND") (at 105.41 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b7444af-173a-4933-a452-825dcadace66)
-    (property "Reference" "#PWR?" (at 105.41 39.37 0)
+    (property "Reference" "#PWR054" (at 105.41 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 105.41 38.1 0)
@@ -4312,9 +4288,6 @@
     (pin "1" (uuid 5f1735eb-d05b-4d97-8301-f84824ba44e8))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "#PWR054") (unit 1)
         )
@@ -4325,7 +4298,7 @@
   (symbol (lib_id "power:GND") (at 57.15 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a074f4a7-195f-433d-8697-e98a13a9fbe5)
-    (property "Reference" "#PWR?" (at 57.15 95.25 0)
+    (property "Reference" "#PWR052" (at 57.15 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.15 93.98 0)
@@ -4340,9 +4313,6 @@
     (pin "1" (uuid a0b40a05-5810-4705-91ce-d6cb3121e939))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "#PWR052") (unit 1)
         )
@@ -4379,7 +4349,7 @@
   (symbol (lib_id "power:GND") (at 132.08 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5d0db66-668a-4a88-b2d1-12d5f7de8cb2)
-    (property "Reference" "#PWR?" (at 132.08 53.34 0)
+    (property "Reference" "#PWR056" (at 132.08 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 52.07 0)
@@ -4394,9 +4364,6 @@
     (pin "1" (uuid ffd7ec20-c278-4d32-b716-40bf9a12d960))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "#PWR056") (unit 1)
         )
@@ -4433,7 +4400,7 @@
   (symbol (lib_id "power:GND") (at 228.6 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbfa1a71-8df3-4f4c-98ec-b68b64887493)
-    (property "Reference" "#PWR?" (at 228.6 50.8 0)
+    (property "Reference" "#PWR061" (at 228.6 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 49.53 0)
@@ -4448,9 +4415,6 @@
     (pin "1" (uuid 4a02d4c2-b140-4c1e-b5fe-230f6f12f7a3))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
           (reference "#PWR061") (unit 1)
         )

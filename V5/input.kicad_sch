@@ -2781,7 +2781,7 @@
   (symbol (lib_id "Device:D_Zener") (at 97.79 29.21 270) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 160857ab-bac6-4cd4-9ad8-21f85b04202f)
-    (property "Reference" "D?" (at 100.33 27.94 90)
+    (property "Reference" "D3" (at 100.33 27.94 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15V" (at 100.33 30.48 90)
@@ -2797,9 +2797,6 @@
     (pin "2" (uuid bd5bfa66-8155-42f8-8e8c-7eda2203a3f9))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "D?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "D3") (unit 1)
         )
@@ -2828,9 +2825,6 @@
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "C1") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "C?") (unit 1)
         )
       )
     )
@@ -3095,9 +3089,6 @@
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "#PWR03") (unit 1)
         )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -3174,9 +3165,6 @@
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "#PWR016") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3308,9 +3296,6 @@
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "#PWR019") (unit 1)
         )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -3421,7 +3406,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 248.92 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66dba9b5-0b35-4b8a-868e-bbdb1b28548d)
-    (property "Reference" "C26" (at 252.73 32.131 0)
+    (property "Reference" "C11" (at 252.73 32.131 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470uF" (at 252.73 34.671 0)
@@ -3437,9 +3422,6 @@
     (pin "2" (uuid d16718e4-8550-490b-823e-ca0b42ffda5c))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "C26") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "C11") (unit 1)
         )
@@ -3469,9 +3451,6 @@
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "C6") (unit 1)
         )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -3496,9 +3475,6 @@
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "#PWR010") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3529,9 +3505,6 @@
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "J3") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "J?") (unit 1)
         )
       )
     )
@@ -3767,7 +3740,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 41.91 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 921a296b-7d6e-40a7-b080-1bd2cb3cf0d6)
-    (property "Reference" "J12" (at 40.64 72.39 0)
+    (property "Reference" "JP3" (at 40.64 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Jumper_2_Open" (at 35.56 74.93 0)
@@ -3783,9 +3756,6 @@
     (pin "2" (uuid 05840036-4f20-4fe4-986b-ae1dc94df871))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b"
-          (reference "J12") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "JP3") (unit 1)
         )
@@ -3865,9 +3835,6 @@
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "C7") (unit 1)
         )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -3901,7 +3868,7 @@
   (symbol (lib_id "Device:D_Zener") (at 97.79 63.5 270) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid aa8a55e3-16ec-4afb-8702-fc7c426d5b52)
-    (property "Reference" "D?" (at 100.33 62.23 90)
+    (property "Reference" "D4" (at 100.33 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15V" (at 100.33 64.77 90)
@@ -3917,9 +3884,6 @@
     (pin "2" (uuid a995df57-007b-449d-9b6f-48556e6c7da9))
     (instances
       (project "Carte Alim"
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/fbcc3373-d865-4b7d-baef-f56cd6a8d6d3"
-          (reference "D?") (unit 1)
-        )
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "D4") (unit 1)
         )
@@ -3947,9 +3911,6 @@
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "#PWR04") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4080,9 +4041,6 @@
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "#PWR015") (unit 1)
         )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -4133,9 +4091,6 @@
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "#PWR02") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4213,9 +4168,6 @@
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "#PWR07") (unit 1)
         )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
-        )
       )
     )
   )
@@ -4267,9 +4219,6 @@
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "C10") (unit 1)
         )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "C?") (unit 1)
-        )
       )
     )
   )
@@ -4294,9 +4243,6 @@
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "#PWR018") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4376,9 +4322,6 @@
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/4dc6d322-09f9-4257-88d1-580ed58ec411"
           (reference "C9") (unit 1)
-        )
-        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b/5b9c1ca9-1402-4bf5-b5d5-71a19dec7634"
-          (reference "C?") (unit 1)
         )
       )
     )
