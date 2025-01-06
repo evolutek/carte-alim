@@ -6,8 +6,8 @@
 
   (title_block
     (title "Carte Alim")
-    (date "2024-03-26")
-    (rev "V5.0")
+    (date "2025-01-05")
+    (rev "V5.1")
   )
 
   (lib_symbols
@@ -79,6 +79,67 @@
         (pin passive line (at 3.81 0 180) (length 2.54)
           (name "B" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "MarkingEvo:CAN_ID_lable" (in_bom no) (on_board yes)
+      (property "Reference" "LB" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "MarkingEvo:CAN ID lablel" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "CAN_ID_lable_0_1"
+        (arc (start -2.54 1.27) (mid -3.7942 0) (end -2.54 -1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 1.27)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -1.27)
+            (xy 2.54 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 2.54 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (arc (start 2.5559 -1.27) (mid 3.8101 0) (end 2.5559 1.27)
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "CAN_ID_lable_1_1"
+        (text "CAN ID" (at 0 0 0)
+          (effects (font (size 1.27 1.27)))
         )
       )
     )
@@ -357,11 +418,18 @@
   )
 
   (text_box "Power Tree sheet"
-    (at 180.34 63.5 0) (size 55.88 49.53)
+    (at 180.34 63.5 0) (size 55.88 24.13)
     (stroke (width 0) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 0a6689cb-712a-4ddd-a366-c7c3c9b0e4b4)
+  )
+  (text_box "Marking"
+    (at 180.34 88.9 0) (size 55.88 24.13)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 727fdc93-1235-4adb-ad85-f68e1d745858)
   )
   (text_box "Mouting holes"
     (at 180.34 12.7 0) (size 55.88 49.53)
@@ -480,6 +548,30 @@
       (project "Carte Alim"
         (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b"
           (reference "JP1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "MarkingEvo:CAN_ID_lable") (at 204.47 101.6 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b3b42bfb-a52d-43e1-8c88-91c622094f06)
+    (property "Reference" "LB1" (at 209.55 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "~" (at 204.47 101.6 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "MarkingEvo:CAN ID lablel" (at 204.47 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 204.47 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "Carte Alim"
+        (path "/cd8218bb-90c2-4fd2-9342-79568bc5b28b"
+          (reference "LB1") (unit 1)
         )
       )
     )
@@ -732,14 +824,14 @@
     )
   )
 
-  (sheet (at 198.12 86.36) (size 12.7 3.81) (fields_autoplaced)
+  (sheet (at 198.12 72.39) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 74fe0630-3678-48af-93f9-6a9b46212662)
-    (property "Sheetname" "Power Tree" (at 198.12 85.6484 0)
+    (property "Sheetname" "Power Tree" (at 198.12 71.6784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "power_tree.kicad_sch" (at 198.12 90.7546 0)
+    (property "Sheetfile" "power_tree.kicad_sch" (at 198.12 76.7846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances

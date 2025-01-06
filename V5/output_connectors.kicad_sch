@@ -6,8 +6,8 @@
 
   (title_block
     (title "Carte Alim")
-    (date "2024-03-26")
-    (rev "V5.0")
+    (date "2025-01-05")
+    (rev "V5.1")
   )
 
   (lib_symbols
