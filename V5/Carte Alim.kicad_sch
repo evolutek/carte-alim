@@ -6,7 +6,7 @@
 
   (title_block
     (title "Carte Alim")
-    (date "2025-01-05")
+    (date "2025-01-15")
     (rev "V5.1")
   )
 
@@ -453,7 +453,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 194.31 40.64 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0bc6809b-ccc4-4c8e-ba63-a7a3995ca388)
     (property "Reference" "H1" (at 196.85 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -503,7 +503,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 220.98 40.64 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74e2b3e4-6ad1-423e-ae14-721013e2d820)
     (property "Reference" "H4" (at 223.52 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -528,7 +528,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 77.47 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 78ec09d3-be7c-4d9d-bf9e-08ad4e771bc4)
     (property "Reference" "JP1" (at 81.28 31.75 0)
       (effects (font (size 1.27 1.27)))
@@ -578,7 +578,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 203.2 40.64 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d06ea78a-8daf-49cf-bedd-76f4ec39d431)
     (property "Reference" "H2" (at 205.74 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -603,7 +603,7 @@
   )
 
   (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 77.47 35.56 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid ea32dd4a-7806-46b0-a632-b947481f6940)
     (property "Reference" "JP2" (at 71.12 34.29 0)
       (effects (font (size 1.27 1.27)))
@@ -629,7 +629,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 212.09 40.64 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa279a2c-7151-4d5c-915d-e0e9d7e57e15)
     (property "Reference" "H3" (at 214.63 38.1 0)
       (effects (font (size 1.27 1.27)) (justify left))

@@ -6,7 +6,7 @@
 
   (title_block
     (title "Carte Alim")
-    (date "2025-01-05")
+    (date "2025-01-15")
     (rev "V5.1")
   )
 
@@ -4246,7 +4246,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 177.8 72.39 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91d52d15-b7d6-479a-85ef-1fe7356cd9a1)
     (property "Reference" "JP5" (at 180.34 71.12 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -4373,7 +4373,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 184.15 30.48 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e46b18bb-a1b9-4ddc-9aef-29c62740da65)
     (property "Reference" "JP6" (at 186.69 29.21 90)
       (effects (font (size 1.27 1.27)) (justify left))

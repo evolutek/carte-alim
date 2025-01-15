@@ -6,7 +6,7 @@
 
   (title_block
     (title "Carte Alim")
-    (date "2025-01-05")
+    (date "2025-01-15")
     (rev "V5.1")
   )
 
@@ -2241,16 +2241,16 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 52053e22-9241-4ccb-ac18-e67a1c042839)
   )
-  (text "You can short STM32 AU by connecting JP3" (at 105.41 129.54 0)
+  (text "You can short STM32 AU by connecting JP4" (at 105.41 129.54 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8cac56bb-0f88-43bc-a8d2-3dbe073bc39d)
   )
-  (text "The cricuit power the AU led if:\n- The 5P is present\n- The 12V is present\n- The VPP is present"
+  (text "The cricuit power the AU led if:\n- The 5P is present\n- The 12P is present\n- The VPP is present"
     (at 34.29 154.94 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 948753c5-84c7-438c-b94c-b3f083e19dba)
   )
-  (text "The sensor need to be\nplaced bellow Q12" (at 204.47 133.35 0)
+  (text "The sensor need to be\nplaced bellow Q11" (at 204.47 133.35 0)
     (effects (font (size 2 2) (color 255 0 0 1)) (justify left bottom))
     (uuid 9e35ae11-baa3-47fe-9fa8-16083e221a15)
   )
@@ -2448,7 +2448,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 142.24 49.53 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 1339542b-acef-442a-8542-f6f43e214ff7)
     (property "Reference" "JP4" (at 139.7 48.26 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3441,7 +3441,7 @@
     (property "Reference" "R23" (at 125.73 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 125.73 161.29 0)
+    (property "Value" "4.7k" (at 125.73 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 121.412 160.02 90)

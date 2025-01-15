@@ -6,7 +6,7 @@
 
   (title_block
     (title "Carte Alim")
-    (date "2025-01-05")
+    (date "2025-01-15")
     (rev "V5.1")
   )
 
@@ -2469,16 +2469,17 @@
     (uuid f5fe4faa-67c6-4edd-b7b0-941a65d71666)
   )
 
-  (text "A fusible need to be placed before the input connector"
-    (at 13.97 82.55 0)
+  (text "An external fuse must be added before the input connector"
+    (at 12.7 82.55 0)
     (effects (font (size 1.27 1.27) (color 255 0 0 1)) (justify left bottom))
     (uuid 26ac67a4-1209-43af-82c7-94c8c9821154)
   )
-  (text "INA219 slave address is 0x40" (at 193.04 68.58 0)
+  (text "INA219 slave address is 0x40" (at 193.04 69.85 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 29ea355a-fcc6-4481-af2f-46842f6fa927)
   )
-  (text "The sensor need to be placed\nbellow Q1 and Q2" (at 178.435 164.465 0)
+  (text "The sensor needs to be placed\nbelow Q3, Q4, Q6 and Q7"
+    (at 178.435 164.465 0)
     (effects (font (size 2 2) (color 255 0 0 1)) (justify left bottom))
     (uuid 2dbd69c7-9f53-4751-9a92-4e20c13fb9bc)
   )
@@ -2487,13 +2488,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 588a73e5-9136-4ca1-9fd5-36ea1488724d)
   )
+  (text "JP3 can bypass the EXT AU" (at 27.94 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7feba00a-69fa-4843-8760-b51e3750b85e)
+  )
   (text "ONT/OFFT is used to configured the necessary\npress time to enable/disable the power\n\nConfiguration:\n- ONT: 1820 + 26ms\n- OFFT: 5090 + 26ms"
     (at 129.54 128.27 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 82a96395-745f-4f4e-ae74-5dcde8002a19)
   )
-  (text "Power button is a RGB tactile switch.\nThe Red, Blue and Green led have a common anode."
-    (at 16.51 125.73 0)
+  (text "Power button is a RGB tactile switch.\nThe Red, Blue and Green led share a common anode."
+    (at 16.51 127 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 86b899f1-f228-4cfb-b67e-a27c633eebd2)
   )
@@ -3738,7 +3743,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 41.91 69.85 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 921a296b-7d6e-40a7-b080-1bd2cb3cf0d6)
     (property "Reference" "JP3" (at 40.64 72.39 0)
       (effects (font (size 1.27 1.27)) (justify right))
