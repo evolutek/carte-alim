@@ -49,7 +49,11 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "annular_width|43450000|47590000|37b1dced-29d1-4a93-b991-8a4d42c91de0|00000000-0000-0000-0000-000000000000",
+        "annular_width|56550000|47590000|adf2e4dc-1c0d-4ed3-bcbb-b2f3cb117029|00000000-0000-0000-0000-000000000000",
+        "courtyards_overlap|58099999|50819975|ad9fbe27-5ced-4f4b-b13b-668bb6233b8a|c2a03a52-6c30-4688-b073-a8b13f548d72"
+      ],
       "meta": {
         "version": 2
       },
@@ -428,7 +432,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Output/carte-dock-lp-e10.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
