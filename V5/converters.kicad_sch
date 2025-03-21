@@ -1569,7 +1569,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7e818b3d-3948-4380-b8e4-815f2eb74b0f)
   )
-  (text "Sepcific to Evolutek" (at 172.72 54.61 0)
+  (text "Sepcific to Evolutek" (at 172.72 62.23 0)
     (effects (font (size 1.27 1.27) (color 255 153 0 1)) (justify left bottom))
     (uuid 9b86f78d-ab32-46b5-8d1b-ce5c61239318)
   )
