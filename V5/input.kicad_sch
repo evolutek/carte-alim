@@ -6,7 +6,7 @@
 
   (title_block
     (title "Carte Alim")
-    (date "2025-01-15")
+    (date "2025-03-26")
     (rev "V5.1")
   )
 
@@ -2866,7 +2866,7 @@
     (property "Reference" "R8" (at 195.58 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 195.58 48.26 0)
+    (property "Value" "4.7k" (at 195.58 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 199.898 46.99 90)
@@ -3053,7 +3053,7 @@
     (property "Reference" "R7" (at 186.69 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 186.69 48.26 0)
+    (property "Value" "4.7k" (at 186.69 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 191.008 46.99 90)
