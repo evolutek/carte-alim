@@ -6,7 +6,7 @@
 
   (title_block
     (title "Micro Carte ALim")
-    (date "2025-05-10")
+    (date "2025-05-14")
     (rev "1.0")
     (company "Evolutek")
   )
@@ -280,7 +280,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 27.94 35.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 67e269a0-4d9f-4b79-a1ea-8f36d2254899)
     (property "Reference" "TP2" (at 20.32 35.56 90)
       (effects (font (size 1.27 1.27)))
@@ -384,7 +384,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 54.61 25.4 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid b5b0aaa8-951c-4604-ae7f-f1ccb519f60c)
     (property "Reference" "TP3" (at 62.23 25.4 90)
       (effects (font (size 1.27 1.27)))
@@ -435,7 +435,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 54.61 35.56 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c2a97968-d071-498a-b0b9-63f41239dcff)
     (property "Reference" "TP4" (at 62.23 35.56 90)
       (effects (font (size 1.27 1.27)))
@@ -460,7 +460,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 27.94 25.4 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid ff3df0ec-bee3-4675-84ce-b18da00993d3)
     (property "Reference" "TP1" (at 20.32 25.4 90)
       (effects (font (size 1.27 1.27)))
